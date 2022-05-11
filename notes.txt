@@ -1,0 +1,22 @@
+Left Section:
+    -profile img
+    -contact
+    -soft skills
+    -languages
+
+
+Right Section:
+    -profile description
+
+    -Experience: projects, own business, frela.. (?) | new section based on "Professional Skills"
+
+    -Professional Skills | ~"experience"~
+        *frontend
+        *backend
+        *Mobile
+        
+    - miscellaneous skills (outras habilidades) | ~"interest"~
+        design (canva, photoshop)
+        social media habilities
+
+
