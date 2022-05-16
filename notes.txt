@@ -1,22 +1,38 @@
 Left Section:
     -profile img
     -contact
-    -soft skills
+    -soft skills 
+        * autodidatismo
+        * Organização
+        * pensamento criativo
+        * boa adaptabilidade
+        * persistência
+        * comunicação eficiente
+        * flexibilidade
+        * positividade
+        * gestão de tempo
+        * escuta ativa
+        * planejamento estratégico
+        * mediador de conflitos
+        
     -languages
 
 
-Right Section:
-    -profile description
+Right Section: (toolbox and gear icons)
+    -profile description: Desenvolvedor Web autodidata interessado em projetos e trabalhos que possam impulsionar minha carreira, aumentar meu aprendizado e contribuir significativamente para a melhoria da vida das pessoas.
+
 
     -Experience: projects, own business, frela.. (?) | new section based on "Professional Skills"
 
     -Professional Skills | ~"experience"~
-        *frontend
+        *frontend 
         *backend
         *Mobile
         
     - miscellaneous skills (outras habilidades) | ~"interest"~
         design (canva, photoshop)
         social media habilities
+
+
 
 
