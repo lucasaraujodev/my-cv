@@ -1,14 +1,17 @@
+/* colocar um hover nos links de contato*/
+
 /* ===== FONTS ===== */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
 /* ===== COLOR PALETTE ===== */
-/* === Cobalt Blue === */
+
 :root {
 --light-blue: #97B2DE;
 --cobalt-blue: #1A488E; 
---dark-blue: #092147; /* #003147 */
+--dark-blue: #092147; 
 --icons-blue: #03a9f4;
 --white: #fff;
+--test: #003147;
 }
 
 /* ===== RESETING AND BASIC STRUCTURE ===== */
