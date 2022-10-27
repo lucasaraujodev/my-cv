@@ -125,7 +125,7 @@ body {
     font-weight: 300;
 }
 
-.contactInfo ul li span a {
+.contactInfo ul li span a  {
     color: var(--white);
     font-weight: 300;
     text-decoration: none;
@@ -234,6 +234,12 @@ p {
 
 /* ===== RESPONSIVE SETTINGS ===== */
 
+@media (min-width: 1185px) {
+    #email {
+        font-size: 14.5px;
+    }
+}
+
 @media (max-width: 1000px) {
     .container {
         margin: 10px;
@@ -258,3 +264,7 @@ p {
         grid-template-columns: repeat(1,1fr);
     }
 }
+
+
+
+
