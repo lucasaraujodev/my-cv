@@ -219,7 +219,6 @@ p {
     margin: 10px 0;
 }
 
-/* Try to join the two paragraphs above */
 .miscellaneous ul li .fa-brands {
     color: var(--icons-blue);
     font-size: 18px;
