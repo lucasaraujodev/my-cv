@@ -40,6 +40,18 @@ body {
     box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
 
+/* ===== LANGUAGE CHANGE ===== */
+
+.language {
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.language a {
+    text-decoration: none;
+}
+
 /* ===== LEFT SIDE ===== */
 .container .left_Side {
     position: relative;
@@ -131,6 +143,12 @@ body {
     text-decoration: none;
 }
 
+.contactInfo ul li span a:hover {
+    color: var(--icons-blue);
+    font-weight: 300;
+    transition: 0.4s;
+}
+
 /* === Soft Skills === */
 
 .contactInfo .soft_skills li {
@@ -172,6 +190,10 @@ body {
     margin-bottom: 0;
 }
 
+.about a {
+    text-decoration: none;
+}
+
 .title2 {
     color: var(--dark-blue);
     text-transform: uppercase;
@@ -209,7 +231,7 @@ p {
 
 .miscellaneous ul {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
 }
 
 .miscellaneous ul li {
@@ -240,9 +262,19 @@ p {
 
 .portfolio ul li {
     list-style: none;
+    margin: 10px 0;
+}
+
+.portfolio ul li a {
+    text-decoration: none;
     color: #333;
     font-weight: 500;
-    margin: 10px 0;
+}
+
+.portfolio ul li a:hover {
+    color: var(--icons-blue);
+    font-weight: 500;
+    transition: 0.4s;
 }
 
 .portfolio ul li .fa-brands {
@@ -256,6 +288,8 @@ p {
     font-size: 18px;
     width: 20px;
 }
+
+
 
 /* ===== RESPONSIVE SETTINGS ===== */
 
