@@ -231,6 +231,32 @@ p {
     width: 20px;
 }
 
+/* === Portfolio === */
+
+.portfolio ul {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.portfolio ul li {
+    list-style: none;
+    color: #333;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.portfolio ul li .fa-brands {
+    color: var(--icons-blue);
+    font-size: 18px;
+    width: 20px;
+}
+
+.portfolio ul li .fa-solid {
+    color: var(--icons-blue);
+    font-size: 18px;
+    width: 20px;
+}
+
 /* ===== RESPONSIVE SETTINGS ===== */
 
 @media (min-width: 1185px) {
@@ -253,13 +279,7 @@ p {
     .about .box {
         flex-direction: column;
     }
-    .about .box .year_company {
-        margin-bottom: 5px;
-    }
     .miscellaneous ul {
-        grid-template-columns: repeat(1,1fr);
-    }
-    .hard_skills .box {
         grid-template-columns: repeat(1,1fr);
     }
 }
